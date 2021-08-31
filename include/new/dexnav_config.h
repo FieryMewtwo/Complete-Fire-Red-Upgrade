@@ -7,7 +7,7 @@
  */
 
 //15 seconds is the time out. Max of 1092 seconds allowed
-#define DEXNAV_TIMEOUT 15
+#define DEXNAV_TIMEOUT 1092
 
 //Tile amount
 #define SNEAKING_PROXIMITY 5
@@ -30,10 +30,10 @@
 
 //Chance of encountering held item
 #define SEARCHLEVEL0_ITEM 0
-#define SEARCHLEVEL5_ITEM 0
-#define SEARCHLEVEL10_ITEM 1
+#define SEARCHLEVEL5_ITEM 1
+#define SEARCHLEVEL10_ITEM 3
 #define SEARCHLEVEL25_ITEM 7
-#define SEARCHLEVEL50_ITEM 6
+#define SEARCHLEVEL50_ITEM 10
 #define SEARCHLEVEL100_ITEM 12
 
 //Chance of encountering one star potential
